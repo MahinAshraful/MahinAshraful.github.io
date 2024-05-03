@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: auto;
+    background-color: #6397E3;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Gantari", sans-serif;
+    color: white;
+    font-size: 110px;
+    padding-top: 30px;
+}
+
+p{
+    text-align: center;
+    font-family: "Gantari", sans-serif;
+    color: white;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-size: 17px;
+    padding-top: 10px;
+    font-weight: 750;
+}
+
+.view {
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "Gantari", sans-serif;
+
+}

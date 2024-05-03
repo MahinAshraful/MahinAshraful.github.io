@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: auto;
+    background-color: #6397E3;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Gantari", sans-serif;
+    color: white;
+    font-size: 110px;
+    padding-top: 30px;
+}
+
+h2{
+    text-align: center;
+    font-family: "Gantari", sans-serif;
+    color: white;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+p{
+    text-align: center;
+    font-family: "Gantari", sans-serif;
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+    font-weight: 750;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: "Gantari", sans-serif;
+    color:white;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+input {
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.0); /* Use RGBA value for transparency */
+    border-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    color:white;
+}
+
+.special-word{
+    font-weight: 900;
+    color:lightgrey;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+
+.container{  
+    text-align: center;  
+}  
+
+.login-btn {
+    background-color: #6397E3;
+    color:white;
+    border-style:double;
+    border-color: white;
+}
+
+
+#btn{  
+    font-size: 25px;  
+}  
+
+#myPhoto {
+    position: abso; /* or position: relative; */
+    top: 500px; /* specify the Y coordinate */
+    left: 800px; /* specify the X coordinate */
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <h1>Welcome Student!</h1>
+    <p>
+      What is an INC grade? An INC grade is a grade given to a student which
+      indicates that the student has not completed all the assigned coursework
+      for a class. The reason that a student may recieve an INC grade is if an
+      instructor believes that the student can pass the course by completing the
+      missing assignments. The problem is that students may find it difficult to
+      manage and keep up with coursework. This can range from several factors
+      from personal to blatant procrastination. Furthermore, students know very
+      little about the BMCC grading system other than the A,B,C,D,F grades.
+      Failure to understand the INC grade may lead to an unresolved INC grade.
+      This lack o awareness and proactive engagement adversely affects student's
+      academic progess and overall experience. The curreny INC resolution rate
+      is only 50%.
+    </p>
+
+    <div class="view">
+      <a href="calendar.php" class="view">View Your Calendar</a>
+      <br />
+
+      <a href="messages.html" class="view">View Your Messages</a>
+      <br />
+
+      <a href="work.php" class="view">View Your Work</a>
+    </div>
+  </body>
+</html>
+
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "ad1a61ea-7fe7-46ca-b4f2-156f5d9dc78a", // The ID of this integration.
+    region: "us-east", // The region your integration is hosted in.
+    serviceInstanceID: "7d91b9fe-9ce0-48c4-b29c-0707704ecb26", // The ID of your service instance.
+    onLoad: async (instance) => {
+      await instance.render();
+    },
+  };
+  setTimeout(function () {
+    const t = document.createElement("script");
+    t.src =
+      "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+      (window.watsonAssistantChatOptions.clientVersion || "latest") +
+      "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>

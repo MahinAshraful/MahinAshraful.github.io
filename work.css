@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Add the following CSS rules for radio buttons and their labels */
+input[type="radio"],
+label[for="student"],
+label[for="teacher"] {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+/* Your existing CSS rules */
+body {
+    margin: auto;
+    background-color: #6397E3;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Gantari", sans-serif;
+    color: white;
+    font-size: 110px;
+    padding-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Gantari", sans-serif;
+    color: white;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+p {
+    text-align: center;
+    font-family: "Gantari", sans-serif;
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 750;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: "Gantari", sans-serif;
+    color: white;
+    font-size: 30px;
+    padding-top: 0px;
+}
+
+input {
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.special-word {
+    font-weight: 900;
+    color: lightgrey;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.goback {
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "Gantari", sans-serif;
+}

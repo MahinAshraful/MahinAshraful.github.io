@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <img id="myPhoto" src="logobmcc.png" alt="BMCC LOGO" width="300px" />
+    <h1 class="login">Login</h1>
+
+    <form action="login.php" method="post">
+      <label for="username">EMPLID:</label>
+      <input type="text" id="emplid" name="emplid" required />
+
+      <br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+
+      <br />
+
+      <input action="home.html" type="submit" value="Login" />
+    </form>
+
+    <p>
+      Dont have an account? Click<span>
+        <a class="special-word" href="signup.html" target="_blank"
+          >here</a
+        ></span
+      >
+      to sign up
+    </p>
+  </body>
+</html>
